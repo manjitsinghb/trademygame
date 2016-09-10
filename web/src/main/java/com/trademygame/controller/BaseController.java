@@ -3,9 +3,7 @@ package com.trademygame.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.Iterator;
-import java.util.Map;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * Created by manjtsingh on 8/24/2016.
@@ -32,8 +30,9 @@ public class BaseController {
     }
 
     @RequestMapping("/login")
-    public String authenticateUser(Model model)
+    public String authenticateUser(@RequestParam String username, @RequestParam String password, Model model)
     {
+        //authenticate with username password
         return "dashboard";
     }
 
