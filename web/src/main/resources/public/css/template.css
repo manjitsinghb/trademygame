@@ -1,0 +1,30 @@
+body {
+  padding-top: 50px;
+}
+.imageTop {
+	padding-top:25px;
+	padding-bottom:25px;
+  text-align: center;
+}
+.containerbckgrnd{
+background-color:#DCDCDC;	
+}
+
+.theme-dropdown-padding{
+padding-top:5px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.dropdown-center-align{
+	  margin:2px 50px 0;
+}}
+
+.whiteText{
+margin:2px 2px 0 2px;
+color:white;
+}

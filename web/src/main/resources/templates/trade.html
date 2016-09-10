@@ -1,0 +1,85 @@
+<html>
+<head>
+
+    <!-- Latest compiled and minified JavaScript -->
+
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"></link>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"></link>
+    <link rel="stylesheet" href="css/template.css"></link>
+
+</head>
+
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">GameTradeTown</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li class="active"><a href="/trade">Trade</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <div class="col-md-offset-11 dropdown theme-dropdown-padding">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">User
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="/logout">Logout</a></li>
+                    <li><a href="/editProfile">EditProfile</a></li>
+                </ul>
+            </div>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="container containerbckgrnd">
+    <div class="col-md-12 imageTop">
+        <img src="images/assasins3.jpg" width="200" height="200" class="featurette-image img-responsive center-block "></img>
+    </div>
+    <div class="row">
+        <form class="form-horizontal col-md-offset-3 col-md-6">
+            <div class="form-group">
+                <label class="control-label col-md-4" for="email">Game Title</label>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="pwd" placeholder="Enter game title"></input>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-4" for="pwd">Release Year</label>
+                <div class="col-md-6">
+                    <input type="number" class="form-control" min="2010" max="2016" id="release year" placeholder="release year"></input>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-4" for="interests">I want to trade for</label>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="interestedIn" placeholder="I want to trade for"></input>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-4 col-md-4">
+                    <button type="submit" class="btn btn-default">Put up for trade</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+</body>
+
+</html>
